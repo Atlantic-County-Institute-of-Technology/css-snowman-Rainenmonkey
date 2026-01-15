@@ -1,0 +1,239 @@
+
+.container {
+    content: "";
+    border: 1px solid black;
+    width: 1900px;
+    height: 1000px;
+    background: #ffffff;
+    background: linear-gradient(295deg, rgba(255, 255, 255, 1) 0%, rgba(92, 193, 247, 1) 100%);
+}
+
+.ground { 
+    position:absolute;
+    width: 1900px;
+    height: 300px;
+    top: 80%;
+    background-color: white;
+}
+
+.body1 {
+    content: "";
+    position:relative;
+    width: 300px;
+    height: 300px;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(202, 225, 237, 1) 100%);
+    border-radius: 50%;
+    top: 65%;
+    left: 800px;
+}
+
+.body2 {
+    content: "";
+    position:relative;
+    width: 250px;
+    height: 250px;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(202, 225, 237, 1) 100%);
+    border-radius: 50%;
+    top: 15%;
+    left: 825px;
+}
+
+.body3 {
+    content: "";
+    position:relative;
+    width: 160px;
+    height: 160px;
+    background: #ffffff;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(202, 225, 237, 1) 100%);
+    border-radius: 50%;
+    top: -23%;
+    left: 865px;
+}
+
+.nose {
+    content: "";
+    position: realtive;
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:40px solid orange;
+    left: 40px;
+    top:0%;
+}
+.arm1 {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height:9px;
+    background-color: brown;
+    right:-20px;
+    top: 33%;
+    transform: rotate(45deg);
+}
+
+.arm2 {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height:9px;
+    background-color: brown;
+    right: 220px;
+    top: 33%;
+    transform: rotate(140deg);
+}
+
+.button1 {
+    content: "";
+    position:relative;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    top: -1%;
+    left: 925px;
+}
+
+.button2 {
+    content: "";
+    position:relative;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    top: -15%;
+    left: 930px;
+}
+
+.button3 {
+    content: "";
+    position:relative;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    top: -28%;
+    left: 935px;
+}
+
+.eye1 {
+    content: "";
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    left: 90px;
+    top: 22%;
+}
+
+.eye2 {
+    content: "";
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    left:7px;
+    top: 0%;
+}
+
+.mouth {
+    content: "";
+    position:relative;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    top: 5%;
+    left:50px;
+}
+
+.hat {
+    content: "";
+    position: relative;
+    width: 90px;
+    height:100px;
+    background-color: black;
+    left: 30px;
+    top:-140%
+}
+.hatbase {
+    content: "";
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: black;  
+    border-radius: 50%;
+    top: -160%;
+    right: 20px;
+}
+
+.scarf {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    top: -19%;
+    left: 185px;
+    transform: rotate(55deg);
+    background: #ff2626;
+background: radial-gradient(circle,rgba(255, 38, 38, 1) 31%, rgba(227, 209, 209, 0.71) 100%);
+}
+
+.scarfwrap {
+    position: relative;
+    width: 200px;
+    height: 60px;
+    background: #ff2626;
+background: radial-gradient(circle,rgba(255, 38, 38, 1) 31%, rgba(227, 209, 209, 0.71) 100%); 
+    border-radius: 50%;
+    top: 0%;
+    left: 20px;
+}
+
+.mitten1 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background: #ff2626;
+    border-radius: 50%;
+    top: 35%;
+    left: -35px;
+    rotate: 340deg
+}
+
+.mitten1thumb {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: #ff2626;
+    border-radius: 50%;
+    top: 30%;
+    left: -25px;
+    rotate: 270deg
+}
+
+.mitten2 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background: #ff2626;
+    border-radius: 50%;
+    top: 39%;
+    left: 250px;
+    rotate: 40deg
+}
+
+.mitten2thumb {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: #ff2626;
+    border-radius: 50%;
+    top: 33%;
+    left: 270px;
+    rotate: 270deg
+}
